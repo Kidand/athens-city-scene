@@ -1,0 +1,9 @@
+# Local Blender and Python working files
+*.blend1
+*.blend2
+__pycache__/
+*.pyc
+renders/
+qa-output/
+.DS_Store
+Thumbs.db

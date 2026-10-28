@@ -1,0 +1,598 @@
+{
+  "title": "Adapted geographic placement controls",
+  "license": "ODbL-1.0",
+  "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "attribution": "© OpenStreetMap contributors",
+  "source_url": "https://www.openstreetmap.org/copyright",
+  "modifications": "Selected reference controls transformed and artistically adjusted into project coordinates. Scene artwork and other asset licenses are separate.",
+  "controls": [
+    {
+      "object": "Ares temple, calibrated",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh_bounds_center_world_m": [
+        -339.9000244140625,
+        447.0999755859375,
+        -0.3425610065460205
+      ],
+      "calibrated_center_xy_m": [
+        -339.9,
+        447.1
+      ],
+      "source_urls": [
+        "https://www.openstreetmap.org/way/145662898"
+      ],
+      "coordinate_note": "Artistic scene coordinates, X east Y north Z up, metres; not a survey."
+    },
+    {
+      "object": "Attalos two-storey stoa, calibra",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh_bounds_center_world_m": [
+        -210.90000915527344,
+        407.0999755859375,
+        2.9088878631591797
+      ],
+      "calibrated_center_xy_m": [
+        -210.9,
+        407.1
+      ],
+      "source_urls": [
+        "https://www.openstreetmap.org/way/975219800"
+      ],
+      "coordinate_note": "Artistic scene coordinates, X east Y north Z up, metres; not a survey."
+    },
+    {
+      "object": "Bouleuterion, auditorium with se",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh_bounds_center_world_m": [
+        -421.2416687011719,
+        403.9013366699219,
+        1.4676735401153564
+      ],
+      "calibrated_center_xy_m": [
+        -421.3,
+        403.7
+      ],
+      "source_urls": [
+        "https://www.openstreetmap.org/way/145662894"
+      ],
+      "coordinate_note": "Artistic scene coordinates, X east Y north Z up, metres; not a survey."
+    },
+    {
+      "object": "East Building, calibrated",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh_bounds_center_world_m": [
+        -250.39999389648438,
+        314.0,
+        -1.491063117980957
+      ],
+      "calibrated_center_xy_m": [
+        -250.4,
+        314.0
+      ],
+      "source_urls": [
+        "https://www.openstreetmap.org/way/145662886"
+      ],
+      "coordinate_note": "Artistic scene coordinates, X east Y north Z up, metres; not a survey."
+    },
+    {
+      "object": "Hadrian Library, calibrated · p",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh_bounds_center_world_m": [
+        -5.799999237060547,
+        433.2999572753906,
+        3.886242628097534
+      ],
+      "calibrated_center_xy_m": [
+        -5.8,
+        433.3
+      ],
+      "source_urls": [
+        "https://www.openstreetmap.org/way/729674865"
+      ],
+      "coordinate_note": "Artistic scene coordinates, X east Y north Z up, metres; not a survey."
+    },
+    {
+      "object": "Hephaistos on Agoraios Kolonos t",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh_bounds_center_world_m": [
+        -455.1429138183594,
+        455.2000427246094,
+        3.2469842433929443
+      ],
+      "calibrated_center_xy_m": [
+        -457.4,
+        455.2
+      ],
+      "source_urls": [
+        "https://www.openstreetmap.org/way/27917370"
+      ],
+      "coordinate_note": "Artistic scene coordinates, X east Y north Z up, metres; not a survey."
+    },
+    {
+      "object": "Metroon, four-part compound and ",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh_bounds_center_world_m": [
+        -398.33575439453125,
+        411.9000244140625,
+        -1.5659863948822021
+      ],
+      "calibrated_center_xy_m": [
+        -400.5,
+        411.9
+      ],
+      "source_urls": [
+        "https://www.openstreetmap.org/way/145662909"
+      ],
+      "coordinate_note": "Artistic scene coordinates, X east Y north Z up, metres; not a survey."
+    },
+    {
+      "object": "Middle Stoa, calibrated",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh_bounds_center_world_m": [
+        -318.3000183105469,
+        341.60003662109375,
+        -0.30140256881713867
+      ],
+      "calibrated_center_xy_m": [
+        -318.3,
+        341.6
+      ],
+      "source_urls": [
+        "https://www.openstreetmap.org/way/145662893"
+      ],
+      "coordinate_note": "Artistic scene coordinates, X east Y north Z up, metres; not a survey."
+    },
+    {
+      "object": "Olympieion completed colossal Co",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh_bounds_center_world_m": [
+        569.1000366210938,
+        -236.60000610351562,
+        10.111136436462402
+      ],
+      "calibrated_center_xy_m": [
+        569.1,
+        -236.6
+      ],
+      "source_urls": [
+        "https://www.openstreetmap.org/way/63765671"
+      ],
+      "coordinate_note": "Artistic scene coordinates, X east Y north Z up, metres; not a survey."
+    },
+    {
+      "object": "Roman Agora, calibrated",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh_bounds_center_world_m": [
+        -38.999996185302734,
+        321.0,
+        2.280258893966675
+      ],
+      "calibrated_center_xy_m": [
+        -39,
+        321
+      ],
+      "source_urls": [
+        "https://www.openstreetmap.org/way/815455437"
+      ],
+      "coordinate_note": "Artistic scene coordinates, X east Y north Z up, metres; not a survey."
+    },
+    {
+      "object": "Round Tholos civic dining hall",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh_bounds_center_world_m": [
+        -410.99993896484375,
+        374.0,
+        0.3697963356971741
+      ],
+      "calibrated_center_xy_m": [
+        -411.0,
+        374.0
+      ],
+      "source_urls": [
+        "https://www.openstreetmap.org/way/145662892"
+      ],
+      "coordinate_note": "Artistic scene coordinates, X east Y north Z up, metres; not a survey."
+    },
+    {
+      "object": "South Stoa II, calibrated single",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh_bounds_center_world_m": [
+        -302.1000061035156,
+        296.3999938964844,
+        -0.4260425567626953
+      ],
+      "calibrated_center_xy_m": [
+        -302.1,
+        296.4
+      ],
+      "source_urls": [
+        "https://www.openstreetmap.org/way/145662905"
+      ],
+      "coordinate_note": "Artistic scene coordinates, X east Y north Z up, metres; not a survey."
+    },
+    {
+      "object": "Tower of Winds octagonal clock t",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh_bounds_center_world_m": [
+        36.10000228881836,
+        300.0,
+        4.825538158416748
+      ],
+      "calibrated_center_xy_m": [
+        36.1,
+        300.0
+      ],
+      "source_urls": [
+        "https://www.openstreetmap.org/relation/11199493"
+      ],
+      "coordinate_note": "Artistic scene coordinates, X east Y north Z up, metres; not a survey."
+    },
+    {
+      "object": "Zeus Eleutherios, east-facing Pi",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh_bounds_center_world_m": [
+        -378.7000732421875,
+        464.9832458496094,
+        -0.6728687882423401
+      ],
+      "calibrated_center_xy_m": [
+        -396.8,
+        482.6
+      ],
+      "source_urls": [
+        "https://www.openstreetmap.org/way/145662912"
+      ],
+      "coordinate_note": "Artistic scene coordinates, X east Y north Z up, metres; not a survey."
+    }
+  ]
+}

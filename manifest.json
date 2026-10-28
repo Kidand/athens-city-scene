@@ -1,0 +1,624 @@
+{
+  "schema_version": 1,
+  "project": "Athens City Scene",
+  "release_date": "2026-10-28",
+  "blender_verified": "4.3.2",
+  "scope": "Editable public derivative; original geometry and 720-frame camera; procedural groundcover color substitution documented in README.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 250,
+      "sha256": "a98252fe93141bd1f33f5949965b149665e8da87e53be27e1d5a446a4c1eef83"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 118,
+      "sha256": "8f8612cb0be228bf20a66195c4d6089f4048bb31eb4952a7002e148490752d8a"
+    },
+    {
+      "path": "LICENSE.md",
+      "bytes": 1082,
+      "sha256": "0e6eda36c31be65082f0369e5a427fc4b9ee9d8a5181c8d8e4ee1a8425e77d6e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3550,
+      "sha256": "a3eec09297cf7c01d725f7e0dd620d31e9533b5db77d0e5cea0f60d6ec3dc6ff"
+    },
+    {
+      "path": "assets/textures/02dd39d45942_98ab154f35798b1e_grass_medium_02_nor_gl_2k_1024.png",
+      "bytes": 198707,
+      "sha256": "02dd39d45942aec6fc77ce8ea9ed2de7fad4d2d1b8f8fef84b43160f8035d5f0"
+    },
+    {
+      "path": "assets/textures/0b8de1483d79_lime_0_base.png",
+      "bytes": 1115843,
+      "sha256": "0b8de1483d7986669f5688633ab0639b4f71d49a15463589d61033ad82664b18"
+    },
+    {
+      "path": "assets/textures/0c00a71ab58c_threshold_stone_orm.png",
+      "bytes": 4545,
+      "sha256": "0c00a71ab58cbcee5d606b968566d7bb9c389e1b230c7d34635a6c75b622092b"
+    },
+    {
+      "path": "assets/textures/142445b5f1f1_d85fc706716b921e_rocky_trail_02_nor_gl_2k_1024.png",
+      "bytes": 2528775,
+      "sha256": "142445b5f1f10693eda4c05aa8d94941f059b2cf6c9e2f468ff4b907ef4846e1"
+    },
+    {
+      "path": "assets/textures/17daa31824f6_015833e2454cb314_shrub_02_nor_gl_2k_1024.png",
+      "bytes": 932038,
+      "sha256": "17daa31824f6ea981bafe007fba0e7c92987ea537b10a8254b0c5835d7d25121"
+    },
+    {
+      "path": "assets/textures/1905fa5aa720_timber_2_base.png",
+      "bytes": 1448990,
+      "sha256": "1905fa5aa7206f2519963abad8c22fe302afa2e93ae2a34f69bd30dbe079b027"
+    },
+    {
+      "path": "assets/textures/1b2cca623b17_marble_basecolor.jpg",
+      "bytes": 142568,
+      "sha256": "1b2cca623b17189bf73cfae6f8406a655c911995998486038cee054d304b3286"
+    },
+    {
+      "path": "assets/textures/1f92cbf17e46_kloofendal_43d_clear_puresky_4k.hdr",
+      "bytes": 18429221,
+      "sha256": "1f92cbf17e46659ff37c9770d065280da226896b0f56091c4c1fca071da7fbeb"
+    },
+    {
+      "path": "assets/textures/2092b421f19e_981e6acf153cc173_shrub_02_mask_2k_1024.png",
+      "bytes": 13019,
+      "sha256": "2092b421f19ecba242828d84a37d63025817b8b76a010e1d8ce3c1c673340fd3"
+    },
+    {
+      "path": "assets/textures/230272a0976c_e4b3970611262ab4_shrub_02_alpha_2k_1024.png",
+      "bytes": 102590,
+      "sha256": "230272a0976c567b14d1292bb17ed5e8f194e8bb7ec9478f2b51aa057c99fa40"
+    },
+    {
+      "path": "assets/textures/2fab289e558c_ceramic_edge_orm.png",
+      "bytes": 4545,
+      "sha256": "2fab289e558c785cc4536234aad4dffd784cb4cc9ae227aa3dbd6a79925a1d85"
+    },
+    {
+      "path": "assets/textures/3010e22ffb1d_lime_5_base.png",
+      "bytes": 1115908,
+      "sha256": "3010e22ffb1d26fa1999f5e8e3fdee5b848d46953d917d65f380e3938a36841f"
+    },
+    {
+      "path": "assets/textures/33e4c72667a9_lime_clean_1_base.png",
+      "bytes": 1105624,
+      "sha256": "33e4c72667a975213695f6cb6f17240148c97b4f9f47571d3f918742e9494d49"
+    },
+    {
+      "path": "assets/textures/354f2a7b7618_lime_clean_2_base.png",
+      "bytes": 1102610,
+      "sha256": "354f2a7b7618518031c243524cc1202daab2d0c044423adabd5cb934b7cd553f"
+    },
+    {
+      "path": "assets/textures/35a0cd751fdd_ceramic_edge_4_base.png",
+      "bytes": 427060,
+      "sha256": "35a0cd751fddd224340c1701ec73d5b5e0737290bce5685ea273f6848db3e115"
+    },
+    {
+      "path": "assets/textures/3c36778f9a72_court_earth_orm.png",
+      "bytes": 4545,
+      "sha256": "3c36778f9a722b63120ede2bce7079408ba0083f6b8a7cfe5e872d0051d82738"
+    },
+    {
+      "path": "assets/textures/3f5026ef88fd_lime_3_base.png",
+      "bytes": 1117693,
+      "sha256": "3f5026ef88fd1739c13488de86eeabfb91649abe32f55acfb0c004ee56c14333"
+    },
+    {
+      "path": "assets/textures/423b32493d08_b1f78113ab0d98c8_sandy_gravel_arm_2k_1024.png",
+      "bytes": 1537205,
+      "sha256": "423b32493d083cf3c0b9a6f66ade375b32b8d239d6844e78f23a206ac2db0714"
+    },
+    {
+      "path": "assets/textures/497f9c509122_762e2f18ba063fe3_clay_roof_tiles_02_nor_gl_2k_1024.png",
+      "bytes": 1860215,
+      "sha256": "497f9c509122ca9b180f4aeb1596a7fa8f09be26eabde8638d199cac7ec89d8e"
+    },
+    {
+      "path": "assets/textures/4b3de3c20936_6141f60dd26305cb_quarry_wall_02_arm_2k_1024.png",
+      "bytes": 1270560,
+      "sha256": "4b3de3c20936e18056b19e513e7bb791cf7504c247d5ac54501af3da43900ad6"
+    },
+    {
+      "path": "assets/textures/4db65e24d11b_lime_1_base.png",
+      "bytes": 1117621,
+      "sha256": "4db65e24d11be75ea9d7653e7e8faf78839e7d9a184b54d74eaa9b4721d8f596"
+    },
+    {
+      "path": "assets/textures/539f9907759c_clay_tile_4_base.png",
+      "bytes": 1093418,
+      "sha256": "539f9907759c1ade689c231fe4c5bb14e38312176a1a5997fe1496a339753cae"
+    },
+    {
+      "path": "assets/textures/55adce4a4962_lime_clean_4_base.png",
+      "bytes": 1104743,
+      "sha256": "55adce4a49620709cbbc9d7126005d7811fc462e28fae3e55483fe6c4702da5c"
+    },
+    {
+      "path": "assets/textures/57810b4fa14c_bd9e6161c2ec8af1_clay_plaster_arm_2k_1024.png",
+      "bytes": 942700,
+      "sha256": "57810b4fa14c0f1d9c9be87ca713baadce430f0fd1bbdd05224005a329f0dcd3"
+    },
+    {
+      "path": "assets/textures/5a6f102f3390_stucco_orm.png",
+      "bytes": 416983,
+      "sha256": "5a6f102f3390f2ac03a4789c1f89946741ce55e4bef8b30a9cd9d4ff748b9901"
+    },
+    {
+      "path": "assets/textures/5a73bc40b236_5b06a7f9bb84b042_rocks_ground_06_diff_2k_1024.png",
+      "bytes": 2405441,
+      "sha256": "5a73bc40b23646f11192561cc0ef24e464b6e617a66edca13205c50e49368bf3"
+    },
+    {
+      "path": "assets/textures/5d2b70b102ae_8c3d7103368ac77e_marble_rock_02_diff_2k_1024.png",
+      "bytes": 1707102,
+      "sha256": "5d2b70b102ae56ecd3a3ae7d7f209b434fb1f3582fcb20fdedfa445ccce5062d"
+    },
+    {
+      "path": "assets/textures/63bc4eb40bec_19386d3abc93678a_quarry_wall_02_nor_gl_2k_1024.png",
+      "bytes": 2141102,
+      "sha256": "63bc4eb40bececa6d0df7c0be9da8f7bb0b761ee0418f27983d1d3d8daf05ef2"
+    },
+    {
+      "path": "assets/textures/664be0932115_ceramic_edge_1_base.png",
+      "bytes": 461734,
+      "sha256": "664be0932115fb93c3be097a6de8efa9d4828d8e0978b4c2e35f2975a152f11c"
+    },
+    {
+      "path": "assets/textures/66a3779cdcf8_7d231bc60c229539_grass_medium_02_dry_diff_2k_1024.png",
+      "bytes": 295155,
+      "sha256": "66a3779cdcf8b14904b82f5f7139564594a7fd466abd67418dd4f8477f1aeb2a"
+    },
+    {
+      "path": "assets/textures/6791fc9e6a59_d755ac6c70729afc_rocky_trail_02_diff_2k_1024.png",
+      "bytes": 1910691,
+      "sha256": "6791fc9e6a59372b965b2cf1de7fb97af34930d759d7f0d59dcd8a33870fa9b7"
+    },
+    {
+      "path": "assets/textures/68daa31c47f0_pottery_base.png",
+      "bytes": 698926,
+      "sha256": "68daa31c47f054159d4d1cfdb216eb1afd91a493407b16f83eae6beab21a9fd3"
+    },
+    {
+      "path": "assets/textures/6a7a0737c582_clay_tile_2_base.png",
+      "bytes": 1094360,
+      "sha256": "6a7a0737c582d5a9360ed5820e7778e4a3dc5c5c78c5aeb6f1ed608cd77a25e6"
+    },
+    {
+      "path": "assets/textures/6fe8e02f6c82_Marble025_2K-JPG_NormalGL.jpg",
+      "bytes": 1334442,
+      "sha256": "6fe8e02f6c82505338801be0d20d3424b37d4583d80200dc26d510088fa83a57"
+    },
+    {
+      "path": "assets/textures/7384faa55646_52c769baab5a4d33_shrub_02_arm_2k_1024.png",
+      "bytes": 656815,
+      "sha256": "7384faa55646b9a497601cb40ae3ffec48947f744b45b2d04b1f21ad4e0c8393"
+    },
+    {
+      "path": "assets/textures/73f0bb955ea8_6e11308d187988f8_marble_rock_02_nor_gl_2k_1024.png",
+      "bytes": 1452013,
+      "sha256": "73f0bb955ea81e2d3bbc88a5cf6b710c3411ceca27c820a8968bf34f0aeab4b2"
+    },
+    {
+      "path": "assets/textures/749dc62e9f5c_0cdd066f34d357fd_0cdd066f34d357fd_bark_brown_01_diff_2k_1024.png",
+      "bytes": 2252585,
+      "sha256": "749dc62e9f5c35cbef421688c9b159c1e76a10c67b955c7ce6b27a1403cfa949"
+    },
+    {
+      "path": "assets/textures/793c14c13bf5_91b6380756a90e3c_rocks_ground_06_nor_gl_2k_1024.png",
+      "bytes": 2452061,
+      "sha256": "793c14c13bf5ab884ef97972d8c26f243574c75d2412b46980058a184d84ab7c"
+    },
+    {
+      "path": "assets/textures/7ea2aae32899_stucco_normal.png",
+      "bytes": 1449879,
+      "sha256": "7ea2aae32899fac9ad843e7638e0b672a163edcabfb6a7162b81ec4c130ac41a"
+    },
+    {
+      "path": "assets/textures/86a4ef86fb58_gravel_basecolor.jpg",
+      "bytes": 299417,
+      "sha256": "86a4ef86fb58514cf285b0608866ed3d9f2eb9b9b4bf1191bbb02bf855cf276b"
+    },
+    {
+      "path": "assets/textures/873afe370b29_c96abf8da86aa750_grass_medium_02_alpha_2k_1024.png",
+      "bytes": 103564,
+      "sha256": "873afe370b297435a3200215c04b08d3a49ee334038c64d7295b6e7ca6cdbe32"
+    },
+    {
+      "path": "assets/textures/87a86520286c_5440c7681aca746d_sandy_gravel_nor_gl_2k_1024.png",
+      "bytes": 2184048,
+      "sha256": "87a86520286cfb41675e4d95adef047714c55656fd947cd7b3e33fdf3d9ce4d7"
+    },
+    {
+      "path": "assets/textures/8b99de8fa647_d6ae57ea39da3de0_dry_mud_field_001_arm_2k_1024.png",
+      "bytes": 1982371,
+      "sha256": "8b99de8fa6477e4a1966ad74203bbf711fa4a69b25dd1f3a921495b9646a1271"
+    },
+    {
+      "path": "assets/textures/8f550db8be77_lime_4_base.png",
+      "bytes": 1116453,
+      "sha256": "8f550db8be77e6a02fc8645b4b7a3ca12edf899297118e19fca815a61823e942"
+    },
+    {
+      "path": "assets/textures/924c661b4e66_clay_tile_3_base.png",
+      "bytes": 1091656,
+      "sha256": "924c661b4e66fe1f58b1c5f9ff6dd22311efad7b44a0a951fd4a3f2941ee8cd2"
+    },
+    {
+      "path": "assets/textures/98049e6a22d1_timber_0_base.png",
+      "bytes": 1444940,
+      "sha256": "98049e6a22d135a95a1135b04858902d155a3603cdb6f75e3dc762b0fc0d39c7"
+    },
+    {
+      "path": "assets/textures/988ca081e16b_2aa8f6415e900a1b_dry_mud_field_001_nor_gl_2k_1024.png",
+      "bytes": 2687499,
+      "sha256": "988ca081e16b4545efab9de5ea4287c02d626cd924532547ee13a4a95a72823a"
+    },
+    {
+      "path": "assets/textures/99ac93be40f1_ceramic_edge_normal.png",
+      "bytes": 542019,
+      "sha256": "99ac93be40f1f08fadd66e8014e6cd8d328648559155c5bc97e80aa79af7b62c"
+    },
+    {
+      "path": "assets/textures/a03d6bf45b2f_court_earth_base.png",
+      "bytes": 1667510,
+      "sha256": "a03d6bf45b2f23a7096dea723e1def5ae5e37bd90e5ba419f80806e7d29cba9a"
+    },
+    {
+      "path": "assets/textures/a0f31981f2d1_f1380f92fed4b199_rocks_ground_06_arm_2k_1024.png",
+      "bytes": 1664025,
+      "sha256": "a0f31981f2d121a4128a65ad8a2c8757f3522a73bd0eaff61f9fbcad697b4fff"
+    },
+    {
+      "path": "assets/textures/a473dcd1b857_ceramic_normal.png",
+      "bytes": 573775,
+      "sha256": "a473dcd1b857f53616155ebcaa560b33bf92794de2eeecdc88a0cf65a2ff5937"
+    },
+    {
+      "path": "assets/textures/a6ef0ecdc1c6_clay_tile_0_base.png",
+      "bytes": 1094420,
+      "sha256": "a6ef0ecdc1c67c100d8cd98b72062b6b9fef85f4d1143bb0db0319121a5d41c0"
+    },
+    {
+      "path": "assets/textures/a8c125dcc238_2f8d71fb073c893e_rocky_trail_02_arm_2k_1024.png",
+      "bytes": 1902895,
+      "sha256": "a8c125dcc238088aaeb891076045b1c81eeaa90ddd5bb736487492ce04b7c919"
+    },
+    {
+      "path": "assets/textures/a91c7daaa647_threshold_stone_base.png",
+      "bytes": 1427784,
+      "sha256": "a91c7daaa64713b21bc27fb62703fca5fc8ffb0710720092673d2501c288b387"
+    },
+    {
+      "path": "assets/textures/aacb200b171e_lime_2_base.png",
+      "bytes": 1115281,
+      "sha256": "aacb200b171ef1f9184ae8cebe56384666865543af0e7519bcb9c7254730c95d"
+    },
+    {
+      "path": "assets/textures/ab051b278c68_2d3e3df4adf47116_marble_rock_02_arm_2k_1024.png",
+      "bytes": 1043590,
+      "sha256": "ab051b278c68c9572803747c272976fd4143e6336b57942149416bf98660b119"
+    },
+    {
+      "path": "assets/textures/afa577b9b01d_Marble025_2K-JPG_Color.jpg",
+      "bytes": 1266704,
+      "sha256": "afa577b9b01d718180b175f007cfafa07c986e8735a47988f4e1e5d148af8254"
+    },
+    {
+      "path": "assets/textures/b253ec511fc4_fce24f3c8de2096d_marble_cliff_05_arm_2k_1024.png",
+      "bytes": 1349346,
+      "sha256": "b253ec511fc4454cfc2c69bbebbbe2903133aba791aa431c44baefb1e556c47e"
+    },
+    {
+      "path": "assets/textures/b27dc276b91e_083579b03a8f31ec_white_plaster_02_nor_gl_2k_1024.png",
+      "bytes": 1927370,
+      "sha256": "b27dc276b91e71acc0e97ad6195d7f513b530795c7262d971afc3e477d38ddc2"
+    },
+    {
+      "path": "assets/textures/b37abad30e3d_8e7cb954ebff6059_clay_roof_tiles_02_arm_2k_1024.png",
+      "bytes": 1216654,
+      "sha256": "b37abad30e3db9985324bd9b451426b600fea11c0cde64b569eb7fd16a154ed7"
+    },
+    {
+      "path": "assets/textures/b3b6696d707c_clay_tile_1_base.png",
+      "bytes": 1089389,
+      "sha256": "b3b6696d707c0427124e4c98bb4d2f041522398ca6d0e2f994266fb906e47e38"
+    },
+    {
+      "path": "assets/textures/b51aa61e6da6_5e4cf51f8ce858a0_dry_mud_field_001_diff_2k_1024.png",
+      "bytes": 2192991,
+      "sha256": "b51aa61e6da66a6df5218543910bcb4e0757abc86ae8408912f660e98f6cb891"
+    },
+    {
+      "path": "assets/textures/b602682b04de_ac1f0a16eef67a6e_shrub_02_diff_2k_1024.png",
+      "bytes": 853108,
+      "sha256": "b602682b04dee54b8b06eb90e113bb8448f9b0b522e4399d43510b4880dad920"
+    },
+    {
+      "path": "assets/textures/b6231136fc85_rubble_base.png",
+      "bytes": 1602730,
+      "sha256": "b6231136fc85aa6745719eabbd18a56a07b925ce652a0a874f6fb170fb4d384e"
+    },
+    {
+      "path": "assets/textures/b699c18fb1bf_lime_clean_3_base.png",
+      "bytes": 1106470,
+      "sha256": "b699c18fb1bf0246ecc82cac240a32fa8671bc76cf42fb10bb186c70184307e1"
+    },
+    {
+      "path": "assets/textures/b6a95d43f1f4_acdb65bfabb36138_white_plaster_02_arm_2k_1024.png",
+      "bytes": 1799128,
+      "sha256": "b6a95d43f1f4b6ce9c661603ba503769468b2ff0789f5df9c618db4fdd51aafb"
+    },
+    {
+      "path": "assets/textures/b7f23ed9b167_b75cb1e989407e44_rough_wood_nor_gl_2k_1024.png",
+      "bytes": 1874715,
+      "sha256": "b7f23ed9b1673fddc7cd3b15781152310e027ba49c544ef5d357bfd2a95336cd"
+    },
+    {
+      "path": "assets/textures/b8c28ce12c61_rubble_orm.png",
+      "bytes": 109746,
+      "sha256": "b8c28ce12c619e5dbbdc3f98524851bd0503698433b76713361ae35dec552341"
+    },
+    {
+      "path": "assets/textures/ba86c2e871bb_timber_0_orm.png",
+      "bytes": 23592,
+      "sha256": "ba86c2e871bb14cff263d57e9d3aedb542f08c13a579a0d45a0b1bd013a6f8f1"
+    },
+    {
+      "path": "assets/textures/ba86c2e871bb_timber_1_orm.png",
+      "bytes": 23592,
+      "sha256": "ba86c2e871bb14cff263d57e9d3aedb542f08c13a579a0d45a0b1bd013a6f8f1"
+    },
+    {
+      "path": "assets/textures/ba86c2e871bb_timber_2_orm.png",
+      "bytes": 23592,
+      "sha256": "ba86c2e871bb14cff263d57e9d3aedb542f08c13a579a0d45a0b1bd013a6f8f1"
+    },
+    {
+      "path": "assets/textures/bb3ebed62512_Marble025_2K-JPG_Roughness.jpg",
+      "bytes": 2132343,
+      "sha256": "bb3ebed62512968df98ace9486eb662df728f024084a501ab98f598346051b39"
+    },
+    {
+      "path": "assets/textures/c26a9891dd49_bd7597ff0d2d6682_rough_wood_arm_2k_1024.png",
+      "bytes": 1446771,
+      "sha256": "c26a9891dd497d4745e1027346cc4a6287ded6ed4ba818ca8c1043ff9e90d27a"
+    },
+    {
+      "path": "assets/textures/c3e32fa81ae4_lime_clean_0_base.png",
+      "bytes": 1103762,
+      "sha256": "c3e32fa81ae4439d0ef1246c379c148278ed46ad23787316dad364b33094de97"
+    },
+    {
+      "path": "assets/textures/c5b1f23a8d1d_threshold_stone_normal.png",
+      "bytes": 1366790,
+      "sha256": "c5b1f23a8d1d396a520f09817fa90b04b7de4976a07a45bab050c01b5990b3b1"
+    },
+    {
+      "path": "assets/textures/c784fcff6d53_70c0e294fd94b980_grass_medium_02_diff_2k_1024.png",
+      "bytes": 271253,
+      "sha256": "c784fcff6d53d55e11cb39fb877d824c7964d1114917e5752e2fc91130625639"
+    },
+    {
+      "path": "assets/textures/c85fb3ff61c2_lime_clean_5_base.png",
+      "bytes": 1102388,
+      "sha256": "c85fb3ff61c230478344d798ebec495ee877df3d83a563acec4620834780366b"
+    },
+    {
+      "path": "assets/textures/c8736c0e13d1_ceramic_edge_0_base.png",
+      "bytes": 437046,
+      "sha256": "c8736c0e13d1776e9a94f7620d0beb708bb6967516df0b17a70c2780e89c1261"
+    },
+    {
+      "path": "assets/textures/cca3eb2c69d2_ceramic_edge_2_base.png",
+      "bytes": 381454,
+      "sha256": "cca3eb2c69d2a69f056b60f9d1fc78221930a7f14072724c0e1b5a22dffc48ab"
+    },
+    {
+      "path": "assets/textures/ce7ea713ad5f_timber_1_base.png",
+      "bytes": 1448228,
+      "sha256": "ce7ea713ad5f4963641755a2032a145d9583f3eb6bc89093bdc69b465678fe4f"
+    },
+    {
+      "path": "assets/textures/d0a617f27594_126f8d299022ed26_clay_plaster_nor_gl_2k_1024.png",
+      "bytes": 1541903,
+      "sha256": "d0a617f27594fbac7c7cc71a887b788b5cb438d5e3a2021c027c34b151f3fae6"
+    },
+    {
+      "path": "assets/textures/d2b2708b1fa8_3b3cc8260290b381_marble_cliff_05_diff_2k_1024.png",
+      "bytes": 2157801,
+      "sha256": "d2b2708b1fa8588f61933fab7bf9131915d713395412f380876c089362725b45"
+    },
+    {
+      "path": "assets/textures/d3243a3506e0_timber_basecolor.jpg",
+      "bytes": 421174,
+      "sha256": "d3243a3506e04bc127320ecc7eb2c042a4ab713244e276269857b177c5122d9b"
+    },
+    {
+      "path": "assets/textures/d486627e2907_98ba11141e4d6e7e_marble_cliff_05_nor_gl_2k_1024.png",
+      "bytes": 1916974,
+      "sha256": "d486627e29071ffae08978f0d8a891b717f658940582c0a5f78a677226ca2d38"
+    },
+    {
+      "path": "assets/textures/d56646fd2644_court_earth_normal.png",
+      "bytes": 1503731,
+      "sha256": "d56646fd2644774f4c846d56f24d3919f339124f756c142eebcc37cc3c61222b"
+    },
+    {
+      "path": "assets/textures/d857b704cc81_timber_0_normal.png",
+      "bytes": 1035518,
+      "sha256": "d857b704cc8199f734068d3eeafed7e3e2e4bd977ea9ecfdc45b92d8170a6c00"
+    },
+    {
+      "path": "assets/textures/d857b704cc81_timber_1_normal.png",
+      "bytes": 1035518,
+      "sha256": "d857b704cc8199f734068d3eeafed7e3e2e4bd977ea9ecfdc45b92d8170a6c00"
+    },
+    {
+      "path": "assets/textures/d857b704cc81_timber_2_normal.png",
+      "bytes": 1035518,
+      "sha256": "d857b704cc8199f734068d3eeafed7e3e2e4bd977ea9ecfdc45b92d8170a6c00"
+    },
+    {
+      "path": "assets/textures/d96e014103e4_roof_1_basecolor.jpg",
+      "bytes": 526211,
+      "sha256": "d96e014103e42d58ad4e80b60d455e041bfcd144d97cce9d49a04a99fde85ff4"
+    },
+    {
+      "path": "assets/textures/ddffff7a2359_ceramic_edge_3_base.png",
+      "bytes": 474109,
+      "sha256": "ddffff7a235926cf4fc0c8cf0d3ed385b7c247c88f5f38803ebd2d8eb9915dcf"
+    },
+    {
+      "path": "assets/textures/ded9854dc678_5051cdadb7e924f3_5051cdadb7e924f3_bark_brown_01_arm_2k_1024.png",
+      "bytes": 1753619,
+      "sha256": "ded9854dc67892732c466a1f682db579558b6a3d9614ca1ed6c2be61aff78256"
+    },
+    {
+      "path": "assets/textures/e17a3283f58b_roof_0_basecolor.jpg",
+      "bytes": 493325,
+      "sha256": "e17a3283f58b0ab7939a6f9b610ef82e1c2d80c2970b47d50378e980003fc2a2"
+    },
+    {
+      "path": "assets/textures/e659667a95f8_rubble_normal.png",
+      "bytes": 1749094,
+      "sha256": "e659667a95f8a81312e6db0e7aae0537b7d1ea71522b1b50ad4dc0e3cdf363f9"
+    },
+    {
+      "path": "assets/textures/e6f733dd8a25_8878f8c5a6287c26_grass_medium_02_arm_2k_1024.png",
+      "bytes": 431903,
+      "sha256": "e6f733dd8a25a711c1cfe2c1a89be45de3aadb455d8a1604989e9183506dd262"
+    },
+    {
+      "path": "assets/textures/eab686e2f4a7_plaster_0_basecolor.jpg",
+      "bytes": 406748,
+      "sha256": "eab686e2f4a7f5eb001db7569cd86c1a12add48eaf9912e77a11dcad68572f68"
+    },
+    {
+      "path": "assets/textures/ec7b22229ba7_ceramic_orm.png",
+      "bytes": 4545,
+      "sha256": "ec7b22229ba76e43d4697dd76f98a50624d85226ad1f6fdeae0bf4efa0de0b50"
+    },
+    {
+      "path": "assets/textures/ee6809e05ba9_stone_basecolor.jpg",
+      "bytes": 495167,
+      "sha256": "ee6809e05ba97dab85d90006adf3a5d68cc46dfa6d8ce13effddd15e19dd8620"
+    },
+    {
+      "path": "assets/textures/f84287c50ab0_earth_basecolor.jpg",
+      "bytes": 296908,
+      "sha256": "f84287c50ab0e8910fb15e9bcc95244a10d85de0a899546f46ee4ab580a07174"
+    },
+    {
+      "path": "assets/textures/f8b5b82f77f0_e7ed1892b319d8a1_clay_plaster_diff_2k_1024.png",
+      "bytes": 882072,
+      "sha256": "f8b5b82f77f064afa4e399747346e00e81e40cf4705c8274d34dec0d1f4ece44"
+    },
+    {
+      "path": "assets/textures/fda94d5a231b_971289c90963ef6a_971289c90963ef6a_bark_brown_01_nor_gl_2k_1024.png",
+      "bytes": 2334640,
+      "sha256": "fda94d5a231b84942d1354a213277f62b0afb612415c4e8efe29ac784f32d8e1"
+    },
+    {
+      "path": "camera/original_camera.blend",
+      "bytes": 150069,
+      "sha256": "e7a61a3ba136b40071e55f83666ba5ea0691772148f8c7ff938c5c4091228cbf"
+    },
+    {
+      "path": "camera/original_camera_720.json",
+      "bytes": 467531,
+      "sha256": "a2de6040c086db5ff4cf3fda379eb74564d29ef0d86bb6f9a69c578a18ca9150"
+    },
+    {
+      "path": "data/geographic-controls.json",
+      "bytes": 11602,
+      "sha256": "a208e41f880bb1f1d81ba5eccde149814f2fa6cda757b223731396df2798347f"
+    },
+    {
+      "path": "docs/CAMERA.md",
+      "bytes": 2933,
+      "sha256": "87c8b0afe6f2cb6ad5a23ede224cef69db24af91b20dd0dbc779b098da90fdf4"
+    },
+    {
+      "path": "docs/SCENE_VALIDATION.json",
+      "bytes": 1248,
+      "sha256": "17d654cbcbc754b52f861024be87b73a42867a159b6a3d970a4a3b2390b5ba89"
+    },
+    {
+      "path": "docs/THIRD_PARTY_ASSETS.md",
+      "bytes": 9494,
+      "sha256": "0e03c5dcedc9256e45c761e3c565123cbb385d80461c26f9a3b724829202c5ce"
+    },
+    {
+      "path": "docs/USAGE.md",
+      "bytes": 3778,
+      "sha256": "951a917956e686f0de2f7d9d05698a3fb1c7e5a75d6bc324f233b73fffe463da"
+    },
+    {
+      "path": "media/athens-30s-preview.gif",
+      "bytes": 3900407,
+      "sha256": "56b7ffcfa38f1d410b3d34c2583b22ee94931df957bb1b4268a3cfbf21f5e5f6"
+    },
+    {
+      "path": "media/athens-30s-preview.mp4",
+      "bytes": 2302449,
+      "sha256": "b9ddaa9fd26caf67bf0e3aa741b7469b4960b6b0e2890f8358aebc8c07cfbcfc"
+    },
+    {
+      "path": "media/contact-sheet.jpg",
+      "bytes": 219226,
+      "sha256": "b65a62c2e4646f921db3068557d884cf4e573bd741c516453c15c2b3077bd5d1"
+    },
+    {
+      "path": "media/poster.jpg",
+      "bytes": 68653,
+      "sha256": "c6436d9405054607dca55e9c2c0194a8e7d815bb52bc330d92c0278dd34f9539"
+    },
+    {
+      "path": "scene/athens.blend",
+      "bytes": 199287906,
+      "sha256": "32464219209cad0ef71fc35b9432250742da60bafc93a60fca061345c038cd30"
+    },
+    {
+      "path": "scripts/apply_procedural_groundcover.py",
+      "bytes": 3363,
+      "sha256": "a7f5a86261137655db6d71b63847a8a4ef4f403d4b25bd27227f56c755a938f0"
+    },
+    {
+      "path": "scripts/import_camera.py",
+      "bytes": 2057,
+      "sha256": "aa4a41b3995648b4a5656a4ca021561f84f5465b5f587c7277727c2a4f8dd554"
+    },
+    {
+      "path": "scripts/inspect_scene.py",
+      "bytes": 4545,
+      "sha256": "b5662016a274de447f11d2e122c1bb7dc485a0e1fe21487397485ff2c99f1be2"
+    },
+    {
+      "path": "scripts/render_frame.py",
+      "bytes": 2419,
+      "sha256": "c0aa872c85cc6115ed615e7542871b77b894b224b654be59da820c3be3f8602a"
+    },
+    {
+      "path": "scripts/reproduce-preview-media.sh",
+      "bytes": 1123,
+      "sha256": "147d80cca5205ce5ffb681b47cf1bc8d9e49cb5c35ebd1efe066a0f6931926a0"
+    },
+    {
+      "path": "scripts/verify_manifest.py",
+      "bytes": 3576,
+      "sha256": "9e8bf6ea2ca9f975da85ae414b9c919db7e2dc09daed0bbbe0f9c2b5df2a3e43"
+    },
+    {
+      "path": "source/README.md",
+      "bytes": 1237,
+      "sha256": "e0c7c470887435769b9e47f2d252f7530bbdbd8f91e3a63dc61d52a7bffc1c85"
+    }
+  ]
+}

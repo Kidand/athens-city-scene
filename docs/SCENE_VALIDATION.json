@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "blender": "4.3.2",
+  "objects": 2795,
+  "meshes": 851,
+  "materials": 181,
+  "unique_mesh_polygons": 5764991,
+  "geometry_and_object_transforms_unchanged": true,
+  "original_camera_720_matrix_and_lens_sha256": "d59b1fd26029f7cf99f5e1df0e1c18c641e8341138831555ac422111f527b690",
+  "fps": 24,
+  "frames": [
+    1,
+    720
+  ],
+  "geometry_sha256": "f692f8138badfbaf0c3528f681bf3e2f650f8e0e4faaa235dbbe2985ea1230bc",
+  "object_state_sha256": "e56d352ba84a6a6a1576c9eea206edd5bb90cab0fc19eb8230319ba9842f9191",
+  "material_node_groups_changed": 5,
+  "change_scope": "Only groundcover color input: four procedural ground patterns and zero coverage on road material",
+  "image_file_references": 100,
+  "unique_image_files": 100,
+  "all_images_load": true,
+  "linked_libraries": 0,
+  "embedded_historical_texts": 0,
+  "unresolved_old_mask_bytes_included": false,
+  "full_film_rerendered": false,
+  "single_frame_smoke_test": {
+    "frame": 650,
+    "resolution": [
+      512,
+      288
+    ],
+    "samples_max": 8,
+    "status": "PASS",
+    "render_seconds": 8.78,
+    "visual_check": "No missing-texture magenta or structural break observed in decoded output; deliberately low-sample smoke test, not final-quality render."
+  }
+}
